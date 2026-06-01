@@ -1,3 +1,11 @@
+# AI PropTech Deal & Milestone Planner
+
+## 🎯 Project Purpose & Business Intent
+
+This application is an institutional-grade real estate transaction accelerator. In traditional PropTech, creating due diligence checklists, financial audit tracks, and legal validation timelines requires weeks of manual consultation. This platform leverages Next.js 16 and Generative AI (Google Gemini 2.5 Flash / Structured Outputs) to automatically synthesize a comprehensive, chronological transaction milestone roadmap based on user inputs (property intent, geography, budget, and timeline constraint).
+
+To ensure high availability and zero-cost user exploration, the architecture features a custom, server-side **Smart Dynamic Local Fallback Engine**. If an active AI API key is omitted, the backend programmatically parses input text parameters using localized real estate frameworks—automatically injecting Polish KW register controls for Warsaw, Land Registry validations for London, and Grundbuch legal checks for Berlin.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
